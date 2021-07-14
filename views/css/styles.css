@@ -1,0 +1,168 @@
+:root {
+    --clr-blue-1: rgb(73, 71, 175);
+    --clr-white-blue-2: rgb(34, 43, 170);
+    --clr-white-3: white;
+    --clr-gray-4: rgb(48, 48, 48);
+    --clr-gray-5: rgb(160, 160, 160);
+    --clr-white-blue-6: rgb(226, 230, 235);
+    --clr-gray-6: rgb(77, 77, 77);
+    --clr-blue-7: rgb(53, 123, 226);
+    --clr-blue-8: rgb(5, 93, 224);
+    --clr-gray-9: rgb(116, 116, 116);
+    --clr-red-10: rgb(197, 57, 57);
+    --clr-red-11:  rgb(196, 5, 5);
+    --clr-blue-12: rgb(75, 157, 172);
+    --clr-blue-13: rgb(9, 143, 167);
+    --clr-body: #121212;
+    --clr-cont: #202020;
+
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-body);
+}
+
+.container {
+    background-color: var(--clr-cont);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-blog {
+    margin-bottom: 15px;
+}
+
+.btn-newArt {
+    background-color: var(--clr-blue-1);
+    padding: 8px 10px;
+    text-decoration: none;
+    color: var(--clr-white-3);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-newArt:hover {
+    background-color: var(--clr-white-blue-2);
+}
+
+.btn-delete {
+    background-color: var(--clr-red-10);
+    padding: 8px 10px;
+    color: var(--clr-white-3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.98rem;
+    display: inline-block;
+}
+.btn-delete:hover {
+    background-color: var(--clr-red-11);
+}
+
+.card-art {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 16px;
+    border: 5px solid var(--clr-gray-4);
+    border-radius: 5px;
+}
+.card-title{
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.card-date {
+    color: var(--clr-gray-5);
+    margin: 7px 0 7px;
+}
+
+.card-text {
+    margin-bottom: 7px;
+    color: var(--clr-gray-6);
+}
+
+/* 
+============================
+        NEW ARTICLE
+============================ 
+*/
+
+.title-newArt {
+    margin-bottom: 15px;
+}
+.title-blog, .title-newArt, .label-form {
+    color: rgb(232, 240, 240);
+}
+
+.label-form {
+    display: block;
+}
+
+.input-textarea-form {
+    display: flex;
+    width: 100%;
+    margin: 7px 0 15px;
+    padding: 10px;
+    border: 1px solid var(--clr-gray-4);
+    border-radius: 5px;
+}
+
+.btn-save1 {
+    border: none;
+}
+
+.btn-save-form {
+    background-color: var(--clr-blue-7);
+    padding: 8px 10px;
+    color: var(--clr-white-3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.98rem;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-save-form:hover {
+    background-color: var(--clr-blue-8);
+}
+
+.btn-edit {
+    background-color: var(--clr-blue-12);
+    padding: 8px 10px;
+    color: var(--clr-white-3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.98rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.btn-edit:hover {
+    background-color: var(--clr-blue-13);
+}
+
+.btn-cancel {
+    background-color: var(--clr-gray-9);
+    padding: 7.5px 10px;
+    text-decoration: none;
+    color: var(--clr-white-3);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.98rem;
+}
+.btn-cancel:hover {
+    background-color: var(--clr-gray-6);
+}
+
+.btn-container {
+    display: flex;
+}
